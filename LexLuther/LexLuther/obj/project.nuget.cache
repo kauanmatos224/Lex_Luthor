@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9Rdn7DgExHdHJQN5oqAKUpLe5gBPtfLv8Lap3M5ahIeBsfIXiHYIuVD6Vc6v6jlXTIl4yc3R8UHxwJ0FNfGfQA==",
+  "dgSpecHash": "pn0ZkD7qD5SM3HT3kitdDl6BXbaRKgxj7AyKKlPXHQY/VdfOzu5n1lftle+qTu5TB/v6Wpim77M5RtVAYlqDpw==",
   "success": true,
-  "projectFilePath": "/home/rayan/Desktop/projects/Lex_Luthor/LexLuther/LexLuther/LexLuther.csproj",
+  "projectFilePath": "C:\\Users\\kauan\\OneDrive\\Documentos\\GitHub\\Lex_Luthor\\LexLuther\\LexLuther\\LexLuther.csproj",
   "expectedPackageFiles": [
-    "/home/rayan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
-    "/home/rayan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+    "C:\\Users\\kauan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }
