@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LexLuther")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lex_Luthor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LexLuther")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LexLuther")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lex_Luthor")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lex_Luthor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

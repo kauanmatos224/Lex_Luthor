@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexLuther", "LexLuther\LexLuther.csproj", "{2AF77E3B-DCE6-40BC-8F45-2DC6B2349B13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lex_Luthor", "Lex_Luthor\Lex_Luthor.csproj", "{81EC5FF9-9F95-43DC-AE3B-EC4DE306BFAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AF77E3B-DCE6-40BC-8F45-2DC6B2349B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AF77E3B-DCE6-40BC-8F45-2DC6B2349B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AF77E3B-DCE6-40BC-8F45-2DC6B2349B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AF77E3B-DCE6-40BC-8F45-2DC6B2349B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EC5FF9-9F95-43DC-AE3B-EC4DE306BFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EC5FF9-9F95-43DC-AE3B-EC4DE306BFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EC5FF9-9F95-43DC-AE3B-EC4DE306BFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EC5FF9-9F95-43DC-AE3B-EC4DE306BFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {849A5BD8-421B-482F-8649-2077EB7DF1A0}
+		SolutionGuid = {94C133FD-E974-4759-ADE7-CB7C60F7FB0D}
 	EndGlobalSection
 EndGlobal
