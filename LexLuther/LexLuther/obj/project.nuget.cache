@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "pn0ZkD7qD5SM3HT3kitdDl6BXbaRKgxj7AyKKlPXHQY/VdfOzu5n1lftle+qTu5TB/v6Wpim77M5RtVAYlqDpw==",
+  "dgSpecHash": "B4dsfnvvw2pkaJsC1+VC5yp7z1GvsNx+S1IaLISsCBOi4DTfbG0y58XvqV52ej806HFWi93LweUI8gAxwOD6iQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kauan\\OneDrive\\Documentos\\GitHub\\Lex_Luthor\\LexLuther\\LexLuther\\LexLuther.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kauan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kauan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kauan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\kauan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\kauan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\kauan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
