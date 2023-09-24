@@ -469,27 +469,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kauan\\.nuget\\packages\\": {}
+    "/home/rayan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kauan\\OneDrive\\Documentos\\GitHub\\Lex_Luthor\\Lex_Luthor\\Lex_Luthor\\Lex_Luthor.csproj",
+      "projectUniqueName": "/home/rayan/Desktop/projects/Lex_Luthor/Lex_Luthor/Lex_Luthor/Lex_Luthor.csproj",
       "projectName": "Lex_Luthor",
-      "projectPath": "C:\\Users\\kauan\\OneDrive\\Documentos\\GitHub\\Lex_Luthor\\Lex_Luthor\\Lex_Luthor\\Lex_Luthor.csproj",
-      "packagesPath": "C:\\Users\\kauan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kauan\\OneDrive\\Documentos\\GitHub\\Lex_Luthor\\Lex_Luthor\\Lex_Luthor\\obj\\",
+      "projectPath": "/home/rayan/Desktop/projects/Lex_Luthor/Lex_Luthor/Lex_Luthor/Lex_Luthor.csproj",
+      "packagesPath": "/home/rayan/.nuget/packages/",
+      "outputPath": "/home/rayan/Desktop/projects/Lex_Luthor/Lex_Luthor/Lex_Luthor/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kauan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/rayan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -528,6 +525,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.10, 7.0.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -536,7 +539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
       }
     }
   }

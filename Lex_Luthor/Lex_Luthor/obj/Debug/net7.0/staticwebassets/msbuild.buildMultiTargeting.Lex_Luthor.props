@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Lex_Luthor.props" />
+</Project>
