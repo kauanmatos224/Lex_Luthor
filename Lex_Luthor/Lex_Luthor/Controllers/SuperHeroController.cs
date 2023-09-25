@@ -1,5 +1,6 @@
 using Lex_Luthor.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lex_Luthor.Controllers;
 
@@ -7,16 +8,15 @@ namespace Lex_Luthor.Controllers;
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
+        private readonly DataContext _context;
+        public SuperHeroController(DataContext context)
+        {
+            this._context = context;
+        }
+
         private static List<SuperHero>? _heroes = new List<SuperHero>
         {
-            new SuperHero
-            {
-                Id = 1,
-                Name = "Lex Luthor",
-                FirstName = "Lex",
-                LastName = "Luthor",
-                Place = "Gotham City"
-            },
+            
             new SuperHero
             {
                 Id = 2,
@@ -29,7 +29,7 @@ namespace Lex_Luthor.Controllers;
         
         [HttpGet]
         public async Task<ActionResult<List<SuperHero>>> Get(){
-            return Ok(_heroes);
+            return Ok(await _context.SuperHeroes.ToListAsync());
         }
         
         [HttpGet("{id}")]
