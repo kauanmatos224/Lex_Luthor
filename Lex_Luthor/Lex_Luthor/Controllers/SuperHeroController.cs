@@ -13,19 +13,6 @@ namespace Lex_Luthor.Controllers;
         {
             this._context = context;
         }
-
-        private static List<SuperHero>? _heroes = new List<SuperHero>
-        {
-            
-            new SuperHero
-            {
-                Id = 2,
-                Name = "Ironman",
-                FirstName = "Tony",
-                LastName = "Stark",
-                Place = "New York City"
-            }
-        };
         
         [HttpGet]
         public async Task<ActionResult<List<SuperHero>>> Get(){
@@ -35,7 +22,7 @@ namespace Lex_Luthor.Controllers;
         [HttpGet("{id}")]
         public async Task<ActionResult<SuperHero>> Get(int id)
         {
-            var hero = _heroes.Find(h => h.Id == id);
+            var hero = await _context.SuperHeroes.FindAsync(id);
 
             if (hero==null) return BadRequest("Hero not found.");
             
@@ -46,31 +33,39 @@ namespace Lex_Luthor.Controllers;
         [HttpPost]
         public async Task<ActionResult<List<SuperHero>>> AddHero(SuperHero hero)
         {
-            _heroes.Add(hero);
-
-            return Ok(_heroes);
+            await _context.SuperHeroes.AddAsync(hero);
+            await _context.SaveChangesAsync();
+            
+            var heroes = await _context.SuperHeroes.ToListAsync();
+            return Ok(heroes);
         }
 
         [HttpPut]
         public async Task<ActionResult<List<SuperHero>>> Update(SuperHero request)
         {
-            var hero = _heroes.Find(h => h.Id == request.Id);
-            if (hero==null) return BadRequest("Hero not found.");
+            var hero = _context.SuperHeroes.FindAsync(request.Id);
+            
+            if (hero == null) return BadRequest("Hero not found");
 
-            hero.Name = request.Name;
-            hero.FirstName = request.FirstName;
-            hero.LastName = request.LastName;
-            hero.Place = request.Place;
+            hero.Result.Name = request.Name;
+            hero.Result.FirstName = request.FirstName;
+            hero.Result.LastName = request.LastName;
+            hero.Result.Place = request.Place;
 
-            return Ok(_heroes);
+            await _context.SaveChangesAsync();
+
+            var heroes = await _context.SuperHeroes.ToListAsync(); 
+            return Ok(heroes);
         }
         
         [HttpDelete("{id}")]
         public async Task<ActionResult<List<SuperHero>>> Delete(int id)
         {
-            var hero = _heroes.Find(h => h.Id == id);
-            if (hero==null) return BadRequest("Hero not found.");
-            _heroes.Remove(hero);
-            return Ok(_heroes);
+            var hero = await _context.SuperHeroes.FindAsync(id);
+            _context.SuperHeroes.Remove(hero);
+            await _context.SaveChangesAsync();
+
+            var heroes = await _context.SuperHeroes.ToListAsync();
+            return Ok(heroes);
         }
     }
